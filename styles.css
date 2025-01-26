@@ -1,0 +1,45 @@
+/* General Styles */
+:root{
+    --primary-color: #fff;
+    font-size: 16px;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #0a0a23;
+  color: var(--primary-color) ;
+}
+:focus-visible {
+    outline: -webkit-focus-ring-color auto 1px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+.palindrome-div {
+  width: min(100vw, 450px);
+  min-height: 100px;
+  box-shadow: 0 6px 6px #002ead;
+}
+.palindrome-div > p {
+  color: #0a0a23;
+}
+.palindrome-div input{
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 2px solid #5a01a7;
+}
+.palindrome-div input:focus {
+    border-bottom: 3px solid #5a01a7;
+}
+#check-btn{
+    font-size: 0.85rem;
+    background-color: #5a01a7;
+    color: var(--primary-color);
+    
+}
+.main-content .definition{
+    width: min(100vw, 450px);
+    min-height: 140px;
+    background-color: #00471b;
+    color: var(--primary-color);
+}
